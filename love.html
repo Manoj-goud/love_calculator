@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Calculator</title>
     <link rel="stylesheet" href="love.css">
+   
+
 </head>
 <body>
     <div class="main">
             <h1>Love Calculator</h1>
 
         <div class="textbox">
-           <input placeholder="Your Name" id="first" >
+           <input placeholder="Your Name" id="first" name="first" >
         </div>
         <div class="textbox">
            <input placeholder="Your Patner Name" id="second">
         </div>
            <div class="btn">
-               <button>Calculate</button>
+               <button onclick="calcu()">Calculate</button>
+           </div>
+
+           <div class="res">
+               <input type="text" id="cal" value="">
            </div>
         </div>
     </div>
 </body>
+<script src="love.js"></script>
 </html>

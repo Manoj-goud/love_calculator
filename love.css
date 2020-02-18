@@ -53,3 +53,14 @@ button{
     padding: 5px;
     margin: 12px 0;
 }
+
+.res{
+    width: 100%;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: 2px solid crimson;
+    font-size: 18px;
+    padding: 5px;
+    margin: 12px 0;
+}

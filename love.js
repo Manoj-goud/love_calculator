@@ -17,6 +17,6 @@ if(result > 100){
     result = 100;
 }
 function calcu(){
-document.getElementById('cal').value = result;
+document.getElementById('cal').innerHTML = result + "% Love";
 }
 console.log(result);
